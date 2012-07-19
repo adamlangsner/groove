@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+	<script src="js/main.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" data-theme="a">
+
+	<div data-role="header">
+		<h1>Search</h1>
+	</div>
+
+	<div data-role="content">
+		<div>
+			<form id="search_form" data-ajax="true">
+				<input type="search" name="query" value="" />
+			</form>
+		</div>
+		<div>
+			<ul data-role='listview' id="search_list"></ul>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
